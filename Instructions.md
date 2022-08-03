@@ -44,7 +44,7 @@ mkdir src
 
 ### 5. Coding the API
 
-You have to create a _.py_ file inside _src_ folder. It can have any name, in this repository there is an example of an API code named _api1_ made for practicing how to make an API and explained in the code how it works. Once the code is finished or if any trials are needed the API can be executed writing this command in the terminal (first save the file):
+You have to create a _.py_ file inside _src_ folder. It can have any name, in this repository there is an example of an API code named _dataTeamAPI.py_ made for practicing how to make an API and explained in the code how it works. Once the code is finished or if any trials are needed the API can be executed writing this command in the terminal (first save the file):
 ```
 
 ```
