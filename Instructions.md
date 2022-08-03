@@ -46,7 +46,7 @@ mkdir src
 
 You have to create a _.py_ file inside _src_ folder. It can have any name, in this repository there is an example of an API code named _dataTeamAPI.py_ made for practicing how to make an API and explained in the code how it works. Once the code is finished or if any trials are needed the API can be executed writing this command in the terminal (first save the file):
 ```
-
+python src/dataTeamAPI.py
 ```
 
 This will run the API locally. In the terminal you can see the endpoint URL, you can click on it and the requests will be made in a browser or you can copy and paste that URL for making requests from python or insomnia.
