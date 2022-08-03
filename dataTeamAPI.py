@@ -6,7 +6,7 @@ import csv
 import json
 # Initialize the API
 app = Flask(__name__) 
-#Endpoint 1 Just for testing 
+#Endpoint 1 Just for testing, u dont need that, but if u have problems with others endpoints, u cant try just make this one work.
 @app.route('/')
 def index():
     return jsonify({'Nothing':"Nothing"})
@@ -29,7 +29,7 @@ def respuesta():
     regiones = json_request["regiones"]
     administracion=json_request["administracion"]
     finalidad= json_request["finalidad"]
-    df=pd.read_csv("/Users/pablosanturioalonso/Desktop/Data API/src/concesiones_completo1.tsv",sep="\t")
+    df=pd.read_csv("concesiones_completo1.tsv",sep="\t")#Place this file in src folder, and paste the fullpath
     if len(regiones)!= 0:
         df=df[df["region_impacto"].isin(regiones)]
         df=df.iloc[0:,[-7,-5]]
